@@ -74,8 +74,4 @@ public class CreateAccountPageTest {
     public void accountSuccessfullyCreated(){
         Assert.assertEquals(driver.findElement(welcomeYourAccountTextElement).getText(),CreateAccountPageCollections.welcomeYourAccountText);
     }
-
-
-
-
 }

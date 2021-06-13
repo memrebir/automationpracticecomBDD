@@ -51,5 +51,4 @@ public class SignInPageTest {
         Assert.assertNotNull(driver.findElement(emailValidIconElement));
     }
 
-
 }

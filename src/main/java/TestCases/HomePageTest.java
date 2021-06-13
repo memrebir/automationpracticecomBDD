@@ -50,7 +50,6 @@ public class HomePageTest {
     @And("I'm clicking Cart button")
     public void iClickingCartButton(){
         driver.findElement(cartButton).click();
-
     }
 
     @And("I'm clicking My Account Button")
